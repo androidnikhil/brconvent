@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-6 mt-5">
-          <img src="data_images/logo/logo-white.png" alt="Pooja Public School logo" class="footer-logo">
+          <img src="https://brconventpublicschool.com/wp-content/uploads/2025/06/brlogo.jpeg" alt="BR Convent School logo" class="footer-logo">
           <div class="mt-4">
             <p class="text-white" style="text-align: justify;">
               BR Convent School is an English medium co-educational Senior Secondary School, affiliated with CBSE (10+2) under Bharat (Affiliation No. 2131311), offering a comprehensive educational experience from classes 1 through 12.
