@@ -54,7 +54,6 @@ Thumbs.db
 .htaccess
 sitemap.xml
 sitemap.xml.gz
-wp-config.php
 robots.txt
 .htaccess
 .idea
@@ -104,7 +103,3 @@ wp-content/blogs.dir/
 wp-content/uploads/
 wp-content/wp-cache-config.php
 wp-content/themes/*
-!wp-content/themes/ketchum-region
-!wp-content/themes/ketchum-theme
-!wp-content/themes/ketchum-timber
-!wp-content/plugins/ketchum-rest-api
