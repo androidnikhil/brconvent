@@ -10,7 +10,7 @@
                 </div>
                 <!-- Image Content -->
                 <div class="flex justify-center">
-                    <img class="rounded-lg shadow-2xl w-full max-w-md" src="http://brconvent.local.com/wp-content/uploads/2025/06/entrygate.png" alt="Front entrance of BR Convent Public School">
+                    <img class="rounded-lg shadow-2xl w-full max-w-md" src="/wp-content/uploads/2025/06/entrygate.png" alt="Front entrance of BR Convent Public School">
                 </div>
             </div>
         </section>

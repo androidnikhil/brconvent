@@ -1,13 +1,13 @@
   <!-- Hero Slider -->
         <div class="hero-slider">
             <div>
-                <img class="w-full h-[auto] object-cover" src="http://brconvent.local.com/wp-content/uploads/2025/06/school_function.png" alt="Modern school classroom with students">
+                <img class="w-full h-[auto] object-cover" src="/wp-content/uploads/2025/06/school_function.png" alt="Modern school classroom with students">
             </div>
             <div>
-                <img class="w-full h-[auto] object-cover" src="http://brconvent.local.com/wp-content/uploads/2025/06/earth_day.png" alt="Children playing on the school playground">
+                <img class="w-full h-[auto] object-cover" src="/wp-content/uploads/2025/06/earth_day.png" alt="Children playing on the school playground">
             </div>
             <div>
-                <img class="w-full h-[auto] object-cover" src="http://brconvent.local.com/wp-content/uploads/2025/06/essay_competition.png" alt="Students conducting an experiment in a science lab">
+                <img class="w-full h-[auto] object-cover" src="/wp-content/uploads/2025/06/essay_competition.png" alt="Students conducting an experiment in a science lab">
             </div>
         </div>
          <script>

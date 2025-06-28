@@ -79,7 +79,7 @@
                     <!-- Logo -->
                     <a href="#" class="flex items-center space-x-3">
                         <!-- IMPORTANT: Replace with your actual logo file -->
-                        <img class="h-14 w-auto" src="http://brconvent.local.com/wp-content/uploads/2025/06/school_logo-Photoroom.png" alt="BR Convent Public School Logo">
+                        <img class="h-14 w-auto" src="/wp-content/uploads/2025/06/school_logo-Photoroom.png" alt="BR Convent Public School Logo">
                     </a>
 
                     <!-- Desktop Navigation Links -->
