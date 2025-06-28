@@ -165,3 +165,22 @@ if (! function_exists('twentytwentyfive_format_binding')) :
 	}
 
 endif;
+
+add_action( 'wp_enqueue_scripts', 'twentytwentyfive_child_enqueue_styles' );
+function twentytwentyfive_child_enqueue_styles() {
+    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+}
+
+/**
+ * Add classic PHP page templates to a block theme.
+ */
+function my_theme_add_page_templates_to_block_theme( $post_templates ) {
+    // Add your custom template
+    $post_templates['about-page.php'] = 'About Page';
+    
+    // You can add more here if needed
+    // $post_templates['another-template.php'] = 'Another Custom Layout';
+
+    return $post_templates;
+}
+add_filter( 'theme_page_templates', 'my_theme_add_page_templates_to_block_theme', 11, 4 );

@@ -84,8 +84,8 @@
 
                     <!-- Desktop Navigation Links -->
                     <div class="hidden md:flex items-center space-x-10">
-                        <a href="#" class="text-school-gold font-bold border-b-2 border-school-gold pb-1 text-base">HOME</a>
-                        <a href="#" class="text-gray-700 hover:text-school-gold font-medium text-base transition-colors duration-200">ABOUT US</a>
+                        <a href="/" class="text-school-gold font-bold border-b-2 border-school-gold pb-1 text-base">HOME</a>
+                        <a href="/about" class="text-gray-700 hover:text-school-gold font-medium text-base transition-colors duration-200">ABOUT US</a>
                         <a href="#" class="text-gray-700 hover:text-school-gold font-medium text-base transition-colors duration-200">ACADEMICS</a>
                         <a href="#" class="text-gray-700 hover:text-school-gold font-medium text-base transition-colors duration-200">ADMISSIONS</a>
                     </div>

@@ -3,32 +3,14 @@
 
 ## Posts
 
-- [Hello world!](https://brconventpublicschool.com/hello-world/): Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
+- [Hello world!](http://brconvent.local.com/hello-world/): Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
 
 ## Pages
 
-- [My Account](https://brconventpublicschool.com/my-account/)
-- [Checkout](https://brconventpublicschool.com/checkout/)
-- [Cart](https://brconventpublicschool.com/cart/)
-- [Contact](https://brconventpublicschool.com/contact/): CONTACT US Submit Your InquiryWe Look Forward to Your Message Talk To Us
-- [Shop](https://brconventpublicschool.com/shop/)
-- [About](https://brconventpublicschool.com/about/): WHO ARE WE? OUR MISSION Hello, my name is Tyler Moore and with the help of many people I made this template. I made it so it is super easy to update and so that it flows perfectly with my tutorials. Lots of love and hundreds of hours went into making it. I hope you love it as much as I do. I wish you the best of luck with your business, enjoy the adventure.
-- [Home](https://brconventpublicschool.com/): B.R. CONVENT PUBLIC SCHOOL is an English medium co-educational Senior Secondary School
-
-## Products
-
-- [Poster V1](https://brconventpublicschool.com/product/poster-v1/): Inspirational posters are a great way to be inspired and encouraged to take on new challenges and adventures. Hang up a poster at home or in the office to be reminded how much beauty awaits in the world, luring you out of your comfort zone and into a world where possibility resides.
-- [Poster V2](https://brconventpublicschool.com/product/poster-v2/): Inspirational posters are a great way to be inspired and encouraged to take on new challenges and adventures. Hang up a poster at home or in the office to be reminded how much beauty awaits in the world, luring you out of your comfort zone and into a world where possibility resides.
-- [Poster V3](https://brconventpublicschool.com/product/poster-v3/): Inspirational posters are a great way to be inspired and encouraged to take on new challenges and adventures. Hang up a poster at home or in the office to be reminded how much beauty awaits in the world, luring you out of your comfort zone and into a world where possibility resides.
-- [Poster V4](https://brconventpublicschool.com/product/poster-v4/): Inspirational posters are a great way to be inspired and encouraged to take on new challenges and adventures. Hang up a poster at home or in the office to be reminded how much beauty awaits in the world, luring you out of your comfort zone and into a world where possibility resides.
-- [Poster V5](https://brconventpublicschool.com/product/poster-v5/): Inspirational posters are a great way to be inspired and encouraged to take on new challenges and adventures. Hang up a poster at home or in the office to be reminded how much beauty awaits in the world, luring you out of your comfort zone and into a world where possibility resides.
-- [Poster V6](https://brconventpublicschool.com/product/poster-v6/): Inspirational posters are a great way to be inspired and encouraged to take on new challenges and adventures. Hang up a poster at home or in the office to be reminded how much beauty awaits in the world, luring you out of your comfort zone and into a world where possibility resides.
-- [Postcard V1](https://brconventpublicschool.com/product/postcard-v1/): Sending a travel postcard to a loved one is truly a thoughtful gesture that can bring joy and inspiration. Inspiration can come in the form of taking a break from the normal routine, while being reminded of the more adventurous and exotic destinations around the world.
-- [Postcard V2](https://brconventpublicschool.com/product/postcard-v2/): Sending a travel postcard to a loved one is truly a thoughtful gesture that can bring joy and inspiration. Inspiration can come in the form of taking a break from the normal routine, while being reminded of the more adventurous and exotic destinations around the world.
-- [Postcard V3](https://brconventpublicschool.com/product/postcard-v3/): Sending a travel postcard to a loved one is truly a thoughtful gesture that can bring joy and inspiration. Inspiration can come in the form of taking a break from the normal routine, while being reminded of the more adventurous and exotic destinations around the world.
-- [Postcard V4](https://brconventpublicschool.com/product/postcard-v4/): Sending a travel postcard to a loved one is truly a thoughtful gesture that can bring joy and inspiration. Inspiration can come in the form of taking a break from the normal routine, while being reminded of the more adventurous and exotic destinations around the world.
-- [Postcard V5](https://brconventpublicschool.com/product/postcard-v5/): Sending a travel postcard to a loved one is truly a thoughtful gesture that can bring joy and inspiration. Inspiration can come in the form of taking a break from the normal routine, while being reminded of the more adventurous and exotic destinations around the world.
-- [Postcard V6](https://brconventpublicschool.com/product/postcard-v6/): Sending a travel postcard to a loved one is truly a thoughtful gesture that can bring joy and inspiration. Inspiration can come in the form of taking a break from the normal routine, while being reminded of the more adventurous and exotic destinations around the world.
+- [Cart](http://brconvent.local.com/cart/)
+- [Contact](http://brconvent.local.com/contact/): CONTACT US Submit Your InquiryWe Look Forward to Your Message Talk To Us
+- [About](http://brconvent.local.com/about/)
+- [Home](http://brconvent.local.com/)
 
 
 [comment]: # (Generated by Hostinger Tools Plugin)
