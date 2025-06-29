@@ -86,7 +86,7 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between items-center h-20">
                     <a href="<?php echo home_url(); ?>" class="flex items-center space-x-3">
-                        <img class="h-14 w-auto" src="<?php echo esc_url('/wp-content/uploads/2025/06/school_logo-Photoroom.png'); ?>" alt="BR Convent Public School Logo">
+                        <img class="h-14 w-auto" src="<?php echo esc_url('/wp-content/uploads/2025/06/brschool.png'); ?>" alt="BR Convent Public School Logo">
                     </a>
 
                     <div class="hidden md:flex items-center space-x-10">
