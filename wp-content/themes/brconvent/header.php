@@ -34,6 +34,11 @@
                         'school-gold': '#d69e2e',
                         'school-light-gray': '#f7fafc',
                         'school-dark-text': '#2d3748',
+                        'primary-blue': '#003366',
+                        'accent-gold': '#FFD700',
+                        'accent-green': '#A9D8B8',
+                        'background-gray': '#F2F2F2',
+                        'dark-text': '#2d3748',
                     }
                 }
             }
@@ -41,12 +46,12 @@
     </script>
 </head>
 
-<body class="bg-white">
+<body class="bg-background-gray">
 
     <!-- 1. Header Section -->
     <header class="bg-white sticky top-0 z-50 shadow-sm">
         <!-- Top Bar -->
-        <div class="bg-white border-b border-gray-200">
+        <div class="bg-gray-100 border-b border-gray-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between items-center h-10">
                     <!-- Left Side Links -->
