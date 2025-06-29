@@ -1,6 +1,6 @@
 <?php
 /**
- *  Template Name: About Page
+ *  Template Name: Academics Page
  **/
 get_header();
 ?>
