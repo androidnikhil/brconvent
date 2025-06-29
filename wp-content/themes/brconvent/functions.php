@@ -42,27 +42,6 @@ if (! function_exists('twentytwentyfive_editor_style')) :
 endif;
 add_action('after_setup_theme', 'twentytwentyfive_editor_style');
 
-// Enqueues style.css on the front.
-if (! function_exists('twentytwentyfive_enqueue_styles')) :
-	/**
-	 * Enqueues style.css on the front.
-	 *
-	 * @since BR Convent Theme 1.0
-	 *
-	 * @return void
-	 */
-	function twentytwentyfive_enqueue_styles()
-	{
-		wp_enqueue_style(
-			'twentytwentyfive-style',
-			get_parent_theme_file_uri('style.css'),
-			array(),
-			wp_get_theme()->get('Version')
-		);
-	}
-endif;
-add_action('wp_enqueue_scripts', 'twentytwentyfive_enqueue_styles');
-
 // Registers custom block styles.
 if (! function_exists('twentytwentyfive_block_styles')) :
 	/**
@@ -184,3 +163,37 @@ function my_theme_add_page_templates_to_block_theme( $post_templates ) {
     return $post_templates;
 }
 add_filter( 'theme_page_templates', 'my_theme_add_page_templates_to_block_theme', 11, 4 );
+
+// functions.php in brconvent child theme
+
+add_action( 'wp_enqueue_scripts', 'brconvent_child_enqueue_assets', 20 );
+
+/**
+ * Enqueue parent and child theme styles and JavaScript.
+ */
+function brconvent_child_enqueue_assets() {
+
+    // Load parent style
+    wp_enqueue_style(
+        'twentytwentyfive-parent-style',
+        get_template_directory_uri() . '/style.css'
+    );
+
+    // Load child style
+    wp_enqueue_style(
+        'brconvent-child-style',
+        get_stylesheet_directory_uri() . '/style.css',
+        array( 'twentytwentyfive-parent-style' ),
+        wp_get_theme()->get( 'Version' )
+    );
+
+    // Load custom child JS (optional)
+    wp_enqueue_script(
+        'brconvent-main-js',
+        get_stylesheet_directory_uri() . '/assets/js/main.js',
+        array(),
+        '1.0.0',
+        true
+    );
+}
+

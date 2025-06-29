@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="/assets/js/main.js"></script>
     <script>
         // Custom Tailwind theme configuration
         tailwind.config = {
@@ -30,6 +31,9 @@
                         // Custom colors to match the screenshot
                         'school-blue': '#4A5568', // A muted blue/gray
                         'school-dark': '#2D3748', // A darker gray for text
+                        'school-gold': '#d69e2e',
+                        'school-light-gray': '#f7fafc',
+                        'school-dark-text': '#2d3748',
                     }
                 }
             }
@@ -76,23 +80,28 @@
         <nav class="bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between items-center h-20">
-                    <!-- Logo -->
-                    <a href="#" class="flex items-center space-x-3">
-                        <!-- IMPORTANT: Replace with your actual logo file -->
-                        <img class="h-14 w-auto" src="/wp-content/uploads/2025/06/school_logo-Photoroom.png" alt="BR Convent Public School Logo">
+                    <a href="<?php echo home_url(); ?>" class="flex items-center space-x-3">
+                        <img class="h-14 w-auto" src="<?php echo esc_url('/wp-content/uploads/2025/06/school_logo-Photoroom.png'); ?>" alt="BR Convent Public School Logo">
                     </a>
 
-                    <!-- Desktop Navigation Links -->
                     <div class="hidden md:flex items-center space-x-10">
-                        <a href="/" class="text-school-gold font-bold border-b-2 border-school-gold pb-1 text-base">HOME</a>
-                        <a href="/about" class="text-gray-700 hover:text-school-gold font-medium text-base transition-colors duration-200">ABOUT US</a>
-                        <a href="#" class="text-gray-700 hover:text-school-gold font-medium text-base transition-colors duration-200">ACADEMICS</a>
-                        <a href="#" class="text-gray-700 hover:text-school-gold font-medium text-base transition-colors duration-200">ADMISSIONS</a>
+                        <?php
+                        // Define the class strings for active and inactive states for clean code
+                        $active_classes = 'text-school-gold font-bold border-b-2 border-school-gold pb-1 text-base';
+                        $inactive_classes = 'text-gray-700 font-medium border-b-2 border-transparent hover:text-school-gold hover:border-school-gold pb-1 text-base transition-colors duration-200';
+                        ?>
+
+                        <a href="<?php echo home_url(); ?>" class="<?php echo (is_front_page()) ? $active_classes : $inactive_classes; ?>">HOME</a>
+
+                        <a href="<?php echo home_url('/about'); ?>" class="<?php echo (is_page('about')) ? $active_classes : $inactive_classes; ?>">ABOUT US</a>
+
+                        <a href="<?php echo home_url('/academics'); ?>" class="<?php echo (is_page('academics')) ? $active_classes : $inactive_classes; ?>">ACADEMICS</a>
+
+                        <a href="<?php echo home_url('/admissions'); ?>" class="<?php echo (is_page('admissions')) ? $active_classes : $inactive_classes; ?>">ADMISSIONS</a>
                     </div>
 
-                    <!-- Mobile Menu Button (hidden on desktop) -->
                     <div class="md:hidden">
-                        <button type="button" class="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600">
+                        <button type="button" class="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600" aria-label="Open mobile menu">
                             <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                             </svg>

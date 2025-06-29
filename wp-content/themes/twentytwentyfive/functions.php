@@ -9,6 +9,7 @@
  * @since Twenty Twenty-Five 1.0
  */
 
+
 // Adds theme support for post formats.
 if ( ! function_exists( 'twentytwentyfive_post_format_setup' ) ) :
 	/**
@@ -156,3 +157,4 @@ if ( ! function_exists( 'twentytwentyfive_format_binding' ) ) :
 		}
 	}
 endif;
+
