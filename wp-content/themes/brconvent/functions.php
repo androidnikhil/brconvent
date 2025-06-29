@@ -158,6 +158,7 @@ function my_theme_add_page_templates_to_block_theme( $post_templates ) {
     $post_templates['about-page.php'] = 'About Page';
 	$post_templates['academic-page.php'] = 'Academics Page';
 	$post_templates['front-page.php'] = 'Front Page';
+	$post_templates['admission-page.php'] = 'Admission Page';
     
     // You can add more here if needed
     // $post_templates['another-template.php'] = 'Another Custom Layout';

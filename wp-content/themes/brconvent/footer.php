@@ -13,8 +13,8 @@
                     <ul class="mt-4 space-y-2">
                         <li><a href="/about" class="text-base text-gray-300 hover:text-white transition-colors duration-300">About Us</a></li>
                         <li><a href="/academics" class="text-base text-gray-300 hover:text-white transition-colors duration-300">Academics</a></li>
-                        <li><a href="#" class="text-base text-gray-300 hover:text-white transition-colors duration-300">Facilities</a></li>
-                        <li><a href="#" class="text-base text-gray-300 hover:text-white transition-colors duration-300">Contact Us</a></li>
+                        <li><a href="/admissions" class="text-base text-gray-300 hover:text-white transition-colors duration-300">Admissions</a></li>
+                        <!-- <li><a href="#" class="text-base text-gray-300 hover:text-white transition-colors duration-300">Contact Us</a></li> -->
                     </ul>
                 </div>
                 <!-- Contact Info -->
@@ -23,7 +23,7 @@
                     <ul class="mt-4 space-y-2">
                         <li class="text-base text-gray-300">Nagla Kali, Shamshabad Road, Agra</li>
                         <li class="text-base text-gray-300">contact@brconvent.com</li>
-                        <li class="text-base text-gray-300">+91 123 456 7890</li>
+                        <li class="text-base text-gray-300">+91 7454988851</li>
                     </ul>
                 </div>
                 <!-- Follow Us -->
