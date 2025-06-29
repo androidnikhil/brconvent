@@ -7,6 +7,7 @@
 
 ## Pages
 
+- [Academics](http://brconvent.local.com/academics-2/)
 - [Cart](http://brconvent.local.com/cart/)
 - [Contact](http://brconvent.local.com/contact/): CONTACT US Submit Your InquiryWe Look Forward to Your Message Talk To Us
 - [About](http://brconvent.local.com/about/)

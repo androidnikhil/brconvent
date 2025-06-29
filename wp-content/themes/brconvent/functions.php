@@ -156,6 +156,8 @@ function twentytwentyfive_child_enqueue_styles() {
 function my_theme_add_page_templates_to_block_theme( $post_templates ) {
     // Add your custom template
     $post_templates['about-page.php'] = 'About Page';
+	$post_templates['academic-page.php'] = 'Academics Page';
+	$post_templates['front-page.php'] = 'Front Page';
     
     // You can add more here if needed
     // $post_templates['another-template.php'] = 'Another Custom Layout';
@@ -163,6 +165,7 @@ function my_theme_add_page_templates_to_block_theme( $post_templates ) {
     return $post_templates;
 }
 add_filter( 'theme_page_templates', 'my_theme_add_page_templates_to_block_theme', 11, 4 );
+
 
 // functions.php in brconvent child theme
 
